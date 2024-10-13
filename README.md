@@ -3,12 +3,12 @@
 This project is a chatbot interface designed to integrate with a Large Language Model (LLM) API, providing features like response formatting, memory store, and chat history. The interface is user-friendly, fully responsive, and offers a variety of features to enhance the chatting experience.
 
 ### Features ✨
-Beautiful & intuitive UI: Inspired by ChatGPT, offering a familiar user experience.
-Fully local: Chats are stored in localStorage for easy access without requiring a database.
-Fully responsive: Optimized for mobile and desktop experiences.
-Easy setup: Get started quickly by cloning the repository and running it locally.
-Chat history: Saved chat sessions for easy access to previous conversations.
-Result Table Visualizations: Response parsing and display, including tables and visualizations
+* Beautiful & intuitive UI: Inspired by ChatGPT, offering a familiar user experience.
+* Fully local: Chats are stored in localStorage for easy access without requiring a database.
+* Fully responsive: Optimized for mobile and desktop experiences.
+* Easy setup: Get started quickly by cloning the repository and running it locally.
+* Chat history: Saved chat sessions for easy access to previous conversations.
+* Result Table Visualizations: Response parsing and display, including tables and visualizations
 
 
 
