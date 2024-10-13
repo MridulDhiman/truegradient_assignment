@@ -9,6 +9,7 @@ import useInitialiseNewChat from '@hooks/useInitialiseNewChat';
 import { ChatInterface } from '@type/chat';
 import { Theme } from '@type/theme';
 import Toast from '@components/Toast';
+import ApiPopup from '@components/ApiPopup';
 
 function App() {
   const initialiseNewChat = useInitialiseNewChat();
@@ -38,9 +39,7 @@ function App() {
 
       localStorage.removeItem('apiKey');
     }
-    else {
-      setApiKey(import.meta.env.VITE_MISTRAL_API_KEY!);
-    }
+ 
 
     if (theme) {
       // legacy local storage
@@ -83,6 +82,7 @@ function App() {
     <div className='overflow-hidden w-full h-full relative'>
       <Menu />
       <Chat />
+      <ApiPopup/>
       <Toast />
     </div>
   );

@@ -94,7 +94,7 @@ const ContentView = memo(
               {content}
             </ReactMarkdown>
           ) : (
-            <span className='whitespace-pre-wrap'>{content}</span>
+            <span dangerouslySetInnerHTML={{ __html: content }}   className='whitespace-pre-wrap'></span>
           )}
         </div>
         <div className='flex justify-end gap-2 w-full mt-2'>
