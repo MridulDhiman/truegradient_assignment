@@ -1,0 +1,21 @@
+{
+  "description": "Mistral ChatGPT adalah aplikasi klien untuk API Mistral berdasarkan aplikasi web sumber terbuka BetterChatGPT yang hebat. Fork ini untuk mereka yang lebih memilih menggunakan API Mistral AI.",
+  "sourceCode": "Lihat <0>kod sumber</0> original BetterChatGPT di GitHub dan beri ia ⭐️! Ini <1>fork juga didapatkan di GitHub</1>.",
+  "initiative": {
+    "description": "Lihat <0><i>Inisiatif Open ChatGPT</i></0>!",
+    "link": "https://medium.com/@ayaka_45434/the-open-chatgpt-initiative-e76b0b62a3ae"
+  },
+  "support": {
+    "title": "Sokongan",
+    "paragraph1": "Sebagai BetterChatGPT, kami mengutamakan sokongan pada asas mereka. Sokongan kepada pencipta BetterChatGPT asal adalah amat diterima.",
+    "paragraph2": "Jika anda menikmati penggunaan aplikasi ini, kami dengan rendah hati meminta anda memberi <0>projek</0> ini ⭐️. ",
+    "paragraph3": "Jika anda mahu menyokong pasukan kami, pertimbangkan untuk menaja kami melalui salah satu kaedah di bawah. Setiap sumbangan, tidak kira seberapa kecil, membantu kami untuk mengekalkan dan meningkatkan perkhidmatan kami.",
+    "alipay": "Alipay",
+    "wechatPay": "WeChat"
+  },
+  "privacyStatement": {
+    "title": "Kenyataan Privasi",
+    "paragraph1": "Kami tinggi hargai privasi anda dan berkomitmen untuk melindungi privasi pengguna kami. Kami tidak mengumpul atau menyimpan teks yang anda masukkan atau terima dari pelayan Mistral AI dalam bentuk apa pun. Kod sumber kami lebih dapat diinspeksi untuk menegakkan kenyataan ini.",
+    "paragraph2": "Kami mengutamakan keselamatan kunci API anda dan mengendalikannya dengan penuh berhati-hati. Jika anda menggunakan kunci API anda sendiri, kunci tersebut hanya disimpan di pelayar anda dan tidak dikongsi dengan mana-mana entiti pihak ketiga. Ia hanya digunakan untuk tujuan yang dimaksudkan, iaitu mengakses API Mistral dan bukan untuk penggunaan yang tidak sah."
+  }
+}

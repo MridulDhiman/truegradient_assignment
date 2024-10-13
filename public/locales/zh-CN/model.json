@@ -1,0 +1,20 @@
+{
+  "configuration": "配置",
+  "model": "模型",
+  "token": {
+    "label": "最大 Token",
+    "description": "助手生成一条信息可以包含的最大 token 数。最大 token 数也受到模型的总长度限制，上文的 token 数和生成的 token 数之和不能超过模型的 token 总数（例如 gpt-3.5-turbo 的 token 总数是 4096）。"
+  },
+  "default": "默认",
+  "temperature": {
+    "label": "采样温度",
+    "description": "使用何种采样温度，值在 0 到 2 之间。较高的数值如 0.8 会使输出更加随机，而较低的数值如 0.2 会使输出更加集中和确定。我们通常建议修改此参数或 Top-p，但不要同时修改两者。(默认: 1)"
+  },
+  "topP": {
+    "label": "Top-p",
+    "description": "数值在 0 到 1 之间。采用核采样（nucleus sampling）的一种采样温度的替代方法，模型仅考虑前 Top-p 概率质量的 token。因此，0.1 表示仅考虑前 10% 概率质量的 token。我们通常建议修改此参数或采样温度，但不要同时修改两者。(默认: 1)"
+  },
+  "defaultChatConfig": "默认聊天配置",
+  "defaultSystemMessage": "默认系统消息",
+  "resetToDefault": "重置为默认值"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Mistral ChatGPT è un client per l'API Mistral basato sull'eccezionale web app open-source BetterChatGPT. Questa biforcazione è per coloro che preferiscono utilizzare l'API di Mistral AI.",
+  "sourceCode": "Controlla il codice <0>sorgente originale di BetterChatGPT</0> su GitHub e dagli una ⭐️! Questa <1>biforcazione è disponibile anche su GitHub</1>.",
+  "initiative": {
+    "description": "Controlla l'iniziativa <0><i>Open ChatGPT</i></0>!",
+    "link": "https://medium.com/@ayaka_45434/the-open-chatgpt-initiative-e76b0b62a3ae"
+  },
+  "support": {
+    "title": "Supporto",
+    "paragraph1": "Poiché Mistral ChatGPT si basa in gran parte su BetterChatGPT, si prega di considerare di supportare i creatori originali di BetterChatGPT!",
+    "paragraph2": "Se hai apprezzato l'utilizzo di questa app, ti chiediamo gentilmente di dare una ⭐️ a questo <0>progetto</0>.",
+    "paragraph3": "Se desideri sostenere il team, considera di sponsorizzarci tramite uno dei metodi di seguito.",
+    "alipay": "Alipay",
+    "wechatPay": "WeChat"
+  },
+  "privacyStatement": {
+    "title": "Informativa sulla privacy",
+    "paragraph1": "Attribuiamo grande importanza alla tua privacy e ci impegniamo a tutelarla. Non raccogliamo o archiviamo alcun testo immesso o ricevuto dal server Mistral AI in nessuna forma. Il nostro codice sorgente è disponibile per verificare questa dichiarazione.",
+    "paragraph2": "Diamo priorità alla sicurezza della tua chiave API e la trattiamo con la massima cura. Se si utilizza la propria chiave API, questa viene esclusivamente memorizzata nel tuo browser e non viene condivisa con alcuna entità terza. Viene utilizzata esclusivamente per lo scopo previsto di accedere all'API Mistral e non per altri usi non autorizzati."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "configuration": "設定",
+  "model": "模型",
+  "token": {
+    "label": "最大 Token",
+    "description": "控制助理嘅一條 msg 最多可以 gen 幾多 token。最大 token 數仲受到模型總長度嘅限制，上文嘅 token 數同生成嘅 token 數加埋一齊唔可以超過模型嘅 token 總數（譬如 gpt-3.5-turbo 嘅 token 總數係 4096）。"
+  },
+  "default": "預設",
+  "temperature": {
+    "label": "取樣温度",
+    "description": "係一個 0 到 2 之間嘅數值。較高嘅數值如 0.8 會令到輸出更加隨機，而較低嘅數值如 0.2 會令到輸出更加集中同確定。通常建議修改呢個參數或者 Top-p，但係唔好同時修改兩者。(預設: 1)"
+  },
+  "topP": {
+    "label": "Top-p",
+    "description": "係一個 0 到 1 之間嘅數值。喺核心取樣（根據温度取樣嘅一種替代方法）入面，取樣嗰陣會由機率最高嗰啲 token 當中揀，0.1 表示僅考慮機率求和達到 10% 嘅 token。通常建議修改呢個參數或取樣温度，但唔好同時修改兩者。(預設: 1)"
+  },
+  "defaultChatConfig": "預設傾偈設定",
+  "defaultSystemMessage": "預設系統消息",
+  "resetToDefault": "重置為預設值"
+}

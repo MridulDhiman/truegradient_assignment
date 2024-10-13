@@ -1,0 +1,20 @@
+{
+  "configuration": "Configuration",
+  "model": "Modèle",
+  "token": {
+    "label": "Max Token",
+    "description": "Le nombre maximum de jetons à générer dans la complétion de la conversation. La longueur totale des jetons d'entrée et des jetons générés est limitée par la longueur de contexte du modèle."
+  },
+  "default": "Défaut",
+  "temperature": {
+    "label": "Température",
+    "description": "La température d'échantillonnage, entre 0 et 2. Des valeurs plus élevées comme 0,8 rendent la sortie plus aléatoire, tandis que des valeurs plus basses comme 0,2 la rendent plus ciblée et déterminée. Nous recommandons généralement de modifier ceci ou top-p mais pas les deux. (Par défaut : 1)"
+  },
+  "topP": {
+    "label": "Top-p",
+    "description": "Nombre entre 0 et 1. Une alternative à l'échantillonnage avec la température, appelée échantillonnage de noyau, où le modèle considère les résultats des jetons avec une probabilité de p-masse supérieure. Ainsi, 0,1 signifie que seuls les jetons constituant les 10 % supérieurs de la masse de probabilité sont considérés. Nous recommandons généralement de modifier ceci ou la température mais pas les deux. (Par défaut : 1)"
+  },
+  "defaultChatConfig": "Configuration de Chat Par Défaut",
+  "defaultSystemMessage": "Message Système Par Défaut",
+  "resetToDefault": "Réinitialiser aux paramètres par défaut"
+}
