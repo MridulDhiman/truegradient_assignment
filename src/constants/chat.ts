@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { ChatInterface, ConfigInterface, ModelOptions } from '@type/chat';
 import useStore from '@store/store';
 
+
 const date = new Date();
 const dateString =
   date.getFullYear() +
@@ -28,12 +29,15 @@ export const modelOptions: ModelOptions[] = [
 
 export const defaultModel = 'mistral-small-latest';
 
+
+
 export const modelMaxToken = {
   'open-mistral-7b': 16384,
   'open-mixtral-8x7b': 16384,
   'mistral-small-latest': 32768,
   'mistral-medium-latest': 32768,
-  'mistral-large-latest': 32768
+  'mistral-large-latest': 32768,
+  'mistral-small': 16384
 };
 
 export const modelCost = {
